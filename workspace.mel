@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 //Maya 2024 Project Definition
+=======
+//Maya 2025 Project Definition
+>>>>>>> ab19596b075bd9ecd6a58bee8c57fefc463af4b5
 
 workspace -fr "fluidCache" "cache/nCache/fluid";
 workspace -fr "images" "images";
