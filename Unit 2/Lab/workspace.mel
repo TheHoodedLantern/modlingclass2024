@@ -1,12 +1,8 @@
-<<<<<<< HEAD
 //Maya 2024 Project Definition
-=======
-//Maya 2025 Project Definition
->>>>>>> ab19596b075bd9ecd6a58bee8c57fefc463af4b5
 
 workspace -fr "fluidCache" "cache/nCache/fluid";
-workspace -fr "images" "images";
 workspace -fr "JT_ATF" "data";
+workspace -fr "images" "images";
 workspace -fr "offlineEdit" "scenes/edits";
 workspace -fr "STEP_ATF Export" "data";
 workspace -fr "furShadowMap" "renderData/fur/furShadowMap";
@@ -62,9 +58,9 @@ workspace -fr "DWG_ATF Export" "data";
 workspace -fr "depth" "renderData/depth";
 workspace -fr "sceneAssembly" "sceneAssembly";
 workspace -fr "IGES_ATF Export" "data";
-workspace -fr "teClipExports" "Time Editor/Clip Exports";
-workspace -fr "IGES_ATF" "data";
 workspace -fr "PARASOLID_ATF" "data";
+workspace -fr "IGES_ATF" "data";
+workspace -fr "teClipExports" "Time Editor/Clip Exports";
 workspace -fr "ASS" "data";
 workspace -fr "audio" "sound";
 workspace -fr "USD Import" "data";
