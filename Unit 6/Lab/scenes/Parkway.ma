@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: Parkway.ma
-//Last modified: Thu, Oct 03, 2024 07:59:13 PM
+//Last modified: Thu, Oct 03, 2024 08:04:09 PM
 //Codeset: 1252
 requires maya "2024";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.3.4.1";
@@ -11,20 +11,21 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Windows 11 Pro v2009 (Build: 22631)";
-fileInfo "UUID" "E07C41AA-48C3-075D-3037-0FB731CF277B";
+fileInfo "UUID" "E1B348C5-49B4-4126-43F9-2FA292DB03A1";
 createNode transform -s -n "persp";
 	rename -uid "D5F35769-49A7-F553-3535-E3A8F801A202";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 20.802995153927043 7.7472487926630667 2.6159749932930882 ;
-	setAttr ".r" -type "double3" -21.938352728827578 -633.79999999998017 -2.3995529629942155e-14 ;
+	setAttr ".t" -type "double3" 21.284408643126735 10.64100381078533 8.152477190815798 ;
+	setAttr ".r" -type "double3" -26.138352728803778 -653.00000000001478 4.0700042171696399e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "F0CCDAE4-4B47-1089-D480-42BC6FA734B0";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 24.943558096295622;
+	setAttr ".coi" 22.864079592358586;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
+	setAttr ".tp" -type "double3" 2.3902768068413933 0.56845774696059614 0.13239405216280042 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "D592A02A-46A6-07E1-F3A5-4FABB700F1E3";
@@ -4890,7 +4891,7 @@ createNode script -n "sceneConfigurationScriptNode";
 	setAttr ".b" -type "string" "playbackOptions -min 1 -max 120 -ast 1 -aet 200 ";
 	setAttr ".st" 6;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "50126E74-4336-D0A4-5742-0898DD0A238F";
+	rename -uid "B81FCC4E-4F95-00A9-F1C6-17A61CB31426";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 1;
